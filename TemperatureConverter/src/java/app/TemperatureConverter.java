@@ -3,7 +3,7 @@ package app;
 import com.edu.*;
 /**
  *
- * @author Binit
+ * @author Devesh
  */
 public class TemperatureConverter {
     

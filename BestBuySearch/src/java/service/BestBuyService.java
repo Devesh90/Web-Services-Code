@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This is the java web service code for buying items from best
+ * buy store.
+ * 
  */
 
 package service;
@@ -20,13 +20,13 @@ import org.xml.sax.SAXException;
 
 /**
  *
- * @author Binit
+ * @author Devesh
  */
 @WebService(serviceName = "BestBuyService")
 public class BestBuyService {
 
     /**
-     * This is a sample web service operation
+     * This is a web service operation
      */
     @WebMethod(operationName = "searchProduct")
     public String searchProduct(@WebParam(name = "search")String search, @WebParam(name = "manufacturer")String manufacturer, 

@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This is java web service code for email validation.
  */
 
 package service;
@@ -14,7 +12,7 @@ import javax.jws.WebParam;
 
 /**
  *
- * @author Binit
+ * @author Devesh
  */
 @WebService(serviceName = "EmailValidate")
 public class EmailValidate {
